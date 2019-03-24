@@ -17,10 +17,12 @@
             <br/>
             Password: <input type="password" name="txtPassword"/>
 	    <br/>
-            Fullname: <input type="password" name="txtFullname"/>
             <font color="red">
             ${requestScope.INVALID.passwordError}
             </font>
+	    Fullname: <input type="text" name="txtFullname"/>
+            <br/>
+            Role: <input type="text" name="txtRole"/>
             <br/>
             <input type="submit" name="action" value="Login"/>
         </form>
