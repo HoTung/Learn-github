@@ -13,16 +13,10 @@
     </head>
     <body>
         <form action="MainController" method="POST">
-            Username: <input type="text" name="txtUsername"/>
+            Username: <input type="text" name="username"/>
             <br/>
-            Password: <input type="password" name="txtPassword"/>
-	    <br/>
-            <font color="red">
-            ${requestScope.INVALID.passwordError}
-            </font>
-	    Fullname: <input type="text" name="txtFullname"/>
-            <br/>
-            Role: <input type="text" name="txtRole"/>
+            Password: <input type="password" name="password"/>
+	          <br/>
             <br/>
             <input type="submit" name="action" value="Login"/>
         </form>
