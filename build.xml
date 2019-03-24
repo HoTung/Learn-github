@@ -59,6 +59,7 @@
         <target name="run" depends="<PROJNAME>-impl.jar">
             <exec dir="bin" executable="launcher.exe">
                 <arg file="${dist.jar}"/>
+                <yyeah boi>
             </exec>
         </target>
 
