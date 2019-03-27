@@ -1,3 +1,4 @@
+
 <%-- 
     Document   : index
     Created on : Mar 24, 2019, 10:05:24 PM
@@ -14,11 +15,15 @@
     <body>
         <form action="MainController" method="POST">
             11: <input type="text" name="username"/>
+            ID: <input type="text" name="username"/>
             <br/>
             Password: <input type="password" name="password"/>
-	          <br/>
+	    <br/>
+            Fullname: <input type="password" name="fullname"/>
             <br/>
+		
             <input type="submit" name="action" value="Login"/>
         </form>
     </body>
 </html>
+
